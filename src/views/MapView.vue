@@ -1,4 +1,4 @@
-<script setup>
+<script setup lang="ts">
 import { GoogleMap, Marker, InfoWindow } from 'vue3-google-map'
 import RouteTo from "../components/RouteTo.vue";
 
