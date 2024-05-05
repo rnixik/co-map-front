@@ -35,7 +35,7 @@ jobs:
           destination: ./_site
 
       - name: Copy index to 404 to enable routing
-        run: cp ./_site/index.html ./_site/404.html
+        run: pwd && ls -la && ls -la ./_site cp ./_site/index.html ./_site/404.html
 
       - name: Upload artifact  # Uploads the build artifact.
         uses: actions/upload-pages-artifact@v2
