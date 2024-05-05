@@ -13,7 +13,7 @@ const markerOptions2 = { position: millomeris, label: 'M', title: 'Millomeris Wa
 
 <template>
   <GoogleMap
-      api-key="AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg"
+      api-key="AIzaSyBZXbvHZl7EAQbaBnulzV2gne_9H876OpQ"
       style="width: 100%; height: 500px"
       :center="center"
       :zoom="12"
